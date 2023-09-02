@@ -3,10 +3,10 @@
 @tailwind utilities;
 
 @font-face {
-  font-family: "Lora";
-  src: url("https://fonts.googleapis.com/css2?family=Lora&display=swap");
+  font-family: "Lato";
+  src: url("https://fonts.googleapis.com/css?family=Lato:300,400,700");
 }
 @font-face {
   font-family: "Work Sans";
-  src: url("https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;500&display=swap");
+  src: url("https://fonts.googleapis.com/css?family=Work+Sans:600,bold,500,regular,400");
 }

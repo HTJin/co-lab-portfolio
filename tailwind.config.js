@@ -3,7 +3,7 @@ export default {
   content: ["./index.html", "./src/**/*.{js,ts,jsx,tsx}"],
   theme: {
     fontFamily: {
-      lora: ["Lora", "sans-serif"],
+      lato: ["Lato", "sans-serif"],
       work: ["Work Sans", "sans-serif"],
     },
     extend: {},
