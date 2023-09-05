@@ -12,6 +12,16 @@ export default {
         secondary: "#FFCD32",
         tertiary: "#465BFF",
       },
+      animation: {
+        trance: "trance 5s infinite linear",
+      },
+      keyframes: {
+        trance: {
+          "0%, 100%": { color: "#9FD8FF" },
+          "25%, 75%": { color: "#8b5cf6" },
+          "50%": { color: "#465BFF" },
+        },
+      },
     },
   },
   plugins: [],
