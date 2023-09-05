@@ -6,7 +6,13 @@ export default {
       lato: ["Lato", "sans-serif"],
       work: ["Work Sans", "sans-serif"],
     },
-    extend: {},
+    extend: {
+      colors: {
+        primary: "#9FD8FF",
+        secondary: "#FFCD32",
+        tertiary: "#465BFF",
+      },
+    },
   },
   plugins: [],
 };
