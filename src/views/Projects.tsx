@@ -98,7 +98,7 @@ function Project({
           </div>
         </div>
       </div>
-      <div className="relative aspect-video w-[600px] overflow-hidden">
+      <div className="relative aspect-video w-[400px] overflow-hidden">
         <div data-aos="fade-up">
           <button
             onClick={handleScreenshotClick}
@@ -142,7 +142,7 @@ export const Projects = () => {
   return (
     <div
       id="projects"
-      className="mx-auto mt-[200vh] flex h-full w-[350px] snap-start flex-col items-center justify-center"
+      className="mx-auto mt-[200vh] flex h-full w-[10px] snap-start flex-col items-center justify-center"
     >
       <h1 className="text-center font-work text-3xl mb-10">Projects</h1>
       <div className="flex snap-end flex-col gap-2">

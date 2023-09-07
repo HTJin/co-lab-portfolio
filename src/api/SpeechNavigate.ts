@@ -1,4 +1,4 @@
-import { Wit } from "node-wit";
+import axios from "axios";
 
 interface ISpeechRecognitionEvent {
   results: [
@@ -25,8 +25,6 @@ interface Window {
 
 declare let window: Window & typeof globalThis;
 
-const client = new Wit({ accessToken: "EQCWZETXGKQENZISGKL5O5NQV4JWPWRL" });
-
 document.addEventListener("DOMContentLoaded", function () {
   const micButton = document.getElementById("micButton")!;
   const SpeechRecognition =
@@ -42,10 +40,15 @@ document.addEventListener("DOMContentLoaded", function () {
     async function (event: ISpeechRecognitionEvent) {
       const speechResult = event.results[0][0].transcript;
 
-      const witResponse = await client.message(speechResult, {});
-      const intent: string | undefined = witResponse.intents[0]?.name;
-
-      navigateBasedOnIntent(intent);
+      try {
+        const response = await axios.post("/api/speech-to-text", {
+          transcript: speechResult,
+        });
+        const intent: string | undefined = response.data.intent;
+        navigateBasedOnIntent(intent);
+      } catch (error) {
+        console.error("Error communicating with server:", error);
+      }
     },
   );
 });

@@ -3,6 +3,7 @@ import { About } from "./views/About";
 import { Experience } from "./views/Experience";
 import { Skills } from "./views/Skills";
 import { Projects } from "./views/Projects";
+// import "./api/SpeechNavigate.ts";
 
 function App() {
   return (
