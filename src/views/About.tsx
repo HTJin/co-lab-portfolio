@@ -9,6 +9,11 @@ export const About = () => {
         id="about"
         className="mx-auto flex h-screen snap-center flex-col items-center justify-center"
       >
+        <div data-aos="fade-down" data-aos-delay="150" data-aos-mirror="true">
+          <h1 className="-translate-y-10 text-center font-work text-3xl">
+            About
+          </h1>
+        </div>
         <div className="relative flex h-[190px] w-[190px] items-center justify-center">
           <div
             className="absolute"

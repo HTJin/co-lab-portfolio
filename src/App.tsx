@@ -1,26 +1,23 @@
 import { Home } from "./views/Home";
 import { About } from "./views/About";
 import { Experience } from "./views/Experience";
+import { Skills } from "./views/Skills";
+import { Projects } from "./views/Projects";
 
 function App() {
   return (
     <>
+      <button
+        id="micButton"
+        className="fixed bottom-[10px] right-[10px] cursor-pointer"
+      >
+        🎤
+      </button>
       <Home />
       <About />
       <Experience />
-
-      <div
-        id="skills"
-        className="mt-[200vh] flex h-screen snap-center items-center justify-center"
-      >
-        {/* Your Skills content */}
-      </div>
-      <div
-        id="projects"
-        className="mt-[200vh] flex h-screen snap-center items-center justify-center"
-      >
-        {/* Your Projects content */}
-      </div>
+      <Skills />
+      <Projects />
     </>
   );
 }

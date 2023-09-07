@@ -8,7 +8,6 @@ export const Home = () => {
       <div className="relative flex h-screen w-screen flex-col items-center justify-center font-lato">
         <div
           data-aos="zoom-in"
-          data-aos-once="true"
           data-aos-delay="150"
           data-aos-mirror="true"
           className="absolute"
@@ -21,22 +20,12 @@ export const Home = () => {
         </div>
         <div className="absolute flex flex-col items-center">
           <div className="mt-[26rem] font-bold uppercase tracking-[.3em] text-slate-800">
-            <div
-              data-aos="fade-up"
-              data-aos-once="true"
-              data-aos-delay="250"
-              data-aos-mirror="true"
-            >
+            <div data-aos="fade-up" data-aos-delay="250" data-aos-mirror="true">
               Software Engineer
             </div>
           </div>
           <h1 className="font-work text-[2.3em] font-bold tracking-widest text-slate-800">
-            <div
-              data-aos="fade-up"
-              data-aos-once="true"
-              data-aos-delay="350"
-              data-aos-mirror="true"
-            >
+            <div data-aos="fade-up" data-aos-delay="350" data-aos-mirror="true">
               Hyun-Tae Jin
             </div>
           </h1>
@@ -44,19 +33,13 @@ export const Home = () => {
             <a className="font-semibold hover:animate-trance" href="#about">
               <div
                 data-aos="fade-down-right"
-                data-aos-once="true"
                 data-aos-delay="450"
                 data-aos-mirror="true"
               >
                 About
               </div>
             </a>
-            <div
-              data-aos="fade-up"
-              data-aos-once="true"
-              data-aos-delay="550"
-              data-aos-mirror="true"
-            >
+            <div data-aos="fade-up" data-aos-delay="550" data-aos-mirror="true">
               |
             </div>
             <a
@@ -65,43 +48,30 @@ export const Home = () => {
             >
               <div
                 data-aos="fade-up-right"
-                data-aos-once="true"
                 data-aos-delay="450"
                 data-aos-mirror="true"
               >
                 Experience
               </div>
             </a>
-            <div
-              data-aos="fade-up"
-              data-aos-once="true"
-              data-aos-delay="650"
-              data-aos-mirror="true"
-            >
+            <div data-aos="fade-up" data-aos-delay="650" data-aos-mirror="true">
               |
             </div>
             <a className="font-semibold hover:animate-trance" href="#skills">
               <div
                 data-aos="fade-up-left"
-                data-aos-once="true"
                 data-aos-delay="450"
                 data-aos-mirror="true"
               >
                 Skills
               </div>
             </a>
-            <div
-              data-aos="fade-up"
-              data-aos-once="true"
-              data-aos-delay="750"
-              data-aos-mirror="true"
-            >
+            <div data-aos="fade-up" data-aos-delay="750" data-aos-mirror="true">
               |
             </div>
             <a className="font-semibold hover:animate-trance" href="#projects">
               <div
                 data-aos="fade-down-left"
-                data-aos-once="true"
                 data-aos-delay="450"
                 data-aos-mirror="true"
               >
@@ -118,7 +88,6 @@ export const Home = () => {
               <div
                 className="flex gap-2 hover:text-violet-600"
                 data-aos="flip-up"
-                data-aos-once="true"
                 data-aos-delay="850"
                 data-aos-mirror="true"
               >
@@ -134,7 +103,6 @@ export const Home = () => {
               <div
                 className="flex gap-2 hover:text-blue-600"
                 data-aos="flip-down"
-                data-aos-once="true"
                 data-aos-delay="950"
                 data-aos-mirror="true"
               >
@@ -150,7 +118,6 @@ export const Home = () => {
               <div
                 className="flex gap-2 hover:text-red-600"
                 data-aos="flip-up"
-                data-aos-once="true"
                 data-aos-delay="1050"
                 data-aos-mirror="true"
               >
@@ -169,7 +136,6 @@ export const Home = () => {
               <div
                 className="flex w-fit flex-col items-center"
                 data-aos="fade-up"
-                data-aos-once="true"
                 data-aos-delay="1150"
                 data-aos-mirror="true"
               >
