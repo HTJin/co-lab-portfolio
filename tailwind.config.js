@@ -17,9 +17,9 @@ export default {
       },
       keyframes: {
         trance: {
-          "0%, 100%": { color: "#9FD8FF" },
+          "0%, 100%": { color: "#465BFF" },
           "25%, 75%": { color: "#8b5cf6" },
-          "50%": { color: "#465BFF" },
+          "50%": { color: "#9FD8FF" },
         },
       },
     },
