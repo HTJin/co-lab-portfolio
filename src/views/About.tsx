@@ -96,7 +96,11 @@ export const About = () => {
           from Meta to recognize speech to navigate through the different
           sections of my portfolio. There is a button with a microphone icon
           located lower right corner of the page. The button will receive voice
-          input. This currently works on Chrome. The commands are, "
+          input. This currently works ONLY on{" "}
+          <span className="font-semibold underline decoration-2 underline-offset-4 hover:animate-trance hover:decoration-pink-400">
+            Chrome
+          </span>
+          . The commands are, "
           <span className="font-semibold underline decoration-2 underline-offset-4 hover:animate-trance hover:decoration-pink-400">
             About
           </span>
