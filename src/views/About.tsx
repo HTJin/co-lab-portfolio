@@ -88,7 +88,7 @@ export const About = () => {
           dedicated to crafting sleek, pragmatic web applications with utmost
           precision.
         </p>
-        <p className="absolute bottom-[10px] w-[350px]">
+        <p className="absolute bottom-[10px] w-[350px] text-sm">
           The API I tried to implement was{" "}
           <span className="font-semibold underline decoration-2 underline-offset-4 hover:animate-trance hover:decoration-pink-400">
             Wit AI
