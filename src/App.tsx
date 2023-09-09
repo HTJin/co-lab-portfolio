@@ -69,17 +69,17 @@ function App() {
       },
     );
 
-    recognition.addEventListener("speechend", function () {
-      console.log("Speech has stopped being detected.");
-    });
+    // recognition.addEventListener("speechend", function () {
+    //   console.log("Speech has stopped being detected.");
+    // });
 
-    recognition.addEventListener("error", function (event) {
-      console.log("An error occurred in recognition: ", event);
-    });
+    // recognition.addEventListener("error", function (event) {
+    //   console.log("An error occurred in recognition: ", event);
+    // });
 
-    recognition.addEventListener("nomatch", function () {
-      console.log("No speech was detected.");
-    });
+    // recognition.addEventListener("nomatch", function () {
+    //   console.log("No speech was detected.");
+    // });
   }, []);
 
   return (
