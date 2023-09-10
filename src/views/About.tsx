@@ -117,7 +117,7 @@ export const About = () => {
             Projects
           </span>
           ". I may tinker with it in the future to add more words, be sure to
-          'npm run server'
+          'npm run server' when running locally then 'npm run dev'
         </p>
       </div>
       <div className="absolute left-1/2 top-1/2 -z-50 -translate-x-1/2 -translate-y-1/2 transform">
